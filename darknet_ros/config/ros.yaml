@@ -1,7 +1,7 @@
 subscribers:
 
   camera_reading:
-    topic: /camera/rgb/image_raw
+    topic: /pepper_local_republisher/pepper_robot/camera/front/image_rect_color
     queue_size: 1
 
 actions:

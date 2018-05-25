@@ -545,6 +545,7 @@ void YoloObjectDetector::yolo()
     if (!isNodeRunning()) {
       demoDone_ = true;
     }
+    std::this_thread::sleep_for (std::chrono::milliseconds(69));
   }
 
 }
